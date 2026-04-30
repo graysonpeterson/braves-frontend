@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">Did the Braves Win Today?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Atlanta_Braves_Insignia.png">
+</head>
+<body>
+
+  <div class="bg-texture"></div>
+
+  <main class="container" id="main">
+
+    <header class="site-header">
+      <p class="eyebrow" id="date-today"></p>
+      <h1 class="site-title">Did the Atlanta Braves win today?</h1>
+    </header>
+
+    <section class="hero" id="hero">
+      <!-- Populated by app.js -->
+      <div class="loading-state">
+        <div class="spinner"></div>
+        <p>Checking the score...</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Data via MLB Stats API · Built by Grayson · Made with Love</p>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
