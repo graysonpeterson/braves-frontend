@@ -23,7 +23,7 @@ https://didthebraveswintoday.netlify.app
 ## Run Locally
 
 ```bash
-git clone https://github.com/yourusername/braves-frontend.git
+git clone https://github.com/graysonpeterson/braves-frontend.git
 cd braves-frontend
 ```
 
