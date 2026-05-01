@@ -15,7 +15,6 @@ dateDisplay.innerText = today.toLocaleDateString();
 // =====================
 function isSaturday() {
   return today.getDay() === 6;
-  //return true;
 }
 
 if (isSaturday()) {
@@ -123,6 +122,3 @@ async function loadGame() {
 
 // Kick it off
 loadGame();
-// renderWin({ braves_score: 7, opponent_score: 3, opponent: 'New York Mets' })
-// renderLoss({ braves_score: 2, opponent_score: 5, opponent: 'New York Mets' })
-// renderNoGame('vs Philadelphia Phillies on Friday')
