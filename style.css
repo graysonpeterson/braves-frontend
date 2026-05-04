@@ -195,6 +195,14 @@ body.city-connect .eyebrow {
   text-align: center;
 }
 
+/* Preview state */
+.preview {
+  font-family: var(--font-hero);
+  font-size: clamp(24px, 6vw, 40px);
+  color: var(--hero-text);
+  text-align: center;
+}
+
 /* =====================
    LOADING STATE
    ===================== */

@@ -64,10 +64,20 @@ function renderNoGame(nextOpponent) {
 
 function renderInProgress(data) {
   const hero = document.getElementById('hero');
-  hero.innerHTML = `
+
+  if (data.status == "Live") {
+    hero.innerHTML = `
     <p class="in-progress">Game in progress…</p>
     <p class="result-detail">vs ${data.opponent}</p>
   `;
+  }
+  else {
+    hero.innerHTML = `
+    <p class="preview">TBD...</p>
+    <p class="result-detail">vs ${data.opponent}</p>
+  `;
+  }
+  
 }
 
 function renderError() {
